@@ -1,0 +1,27 @@
+body {
+    display: flex;
+}
+
+.imagebar{
+    display: flex;
+    min-width: 100px;
+    max-width: 600px;
+}
+
+.leftimg{
+    display: flex;
+    min-width: 100px;
+    max-width: 600px;
+}
+
+.formbar{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.form{
+    display: flex;
+    padding: 10px;
+    box-shadow: 1px;
+}
